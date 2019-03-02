@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Brand</a>
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- This is the actual code that creates the "hamburger icon" -->
+                    <!-- The data-target grabs ids to put into the icon -->
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+
+                    <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="navbar-nav">
+
+                <!-- the span class "sr-only" tells screen readers that Home is the active link, for accessibility -->
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Link1</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+
+                <!-- DROPDOWN MENU -->
+                <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Python Console Integrations
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+                    
+					<a class="dropdown-item" href="payumoney.py">PayUmoney Integration</a>
+					<a class="dropdown-item" href="export.py">Export to csv</a>
+					<a class="dropdown-item" href="file_upload.html">Upload File</a>
+					<a class="dropdown-item" href="payment_forma.html">Authorize.net(AIM))</a>
+					<a class="dropdown-item" href="payment_formcim.html">Authorize.net get Customer Profile</a>
+					<a class="dropdown-item" href="payment_formpp.html">Authorize.net get Payment Profile</a>
+					<a class="dropdown-item" href="payment_formcpp.html">Authorize.net (CIM)</a>
+					<a class="dropdown-item" href="register_form.html">Password Salting</a>
+					<a class="dropdown-item" href="send_mail.html">Send Mail</a>
+					<a class="dropdown-item" href="create_session.html">Create Session</a>
+                  </div>
+                </div>
+
+                <!-- SEARCH BAR -->
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0" type="submit">Submit</button>
+        </form>
+
+      </div> <!-- /.navbar-nav, left-hand content -->
+
+      <!-- STUFF ON THE RIGHT -->
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#">Link2</a>
+      </div> <!-- /.navbar-nav, right-hand content -->
+
+    </div> <!-- /.navbar-collapse -->
+
+
+     </nav>
+
+    <h1>Welcome to Landing Page</h1>
+    <h2></h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+ <h2> Sign up for upcoming launch! </h2>
+
+ <form class="emailform" action="password_hash.py" method="post">
+
+  <label for="first">First Name</label><br>
+   <input  type="text" name="name" value="" required><br>
+   <label for="last">Last Name</label><br>
+   <input type="text" name="last" value=""><br>
+   <label for="email">Email</label><br>
+   <input type="email" name="email" value="" required><br>
+    <label for="email">Password</label><br>
+   <input type="password" name="password" value="" required><br>
+   <input type="submit" id="sub" name="" value="Sign Me Up!">
+
+
+ </form>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
+<script type="text/javascript"
+
+
+</script>
